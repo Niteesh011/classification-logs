@@ -3,7 +3,6 @@ from processor_bert import classify_with_bert
 from processor_llm import classify_with_llm
 import pandas as pd
 
-
 def classify(logs):
     labels = []
     for source, log_msg in logs:
